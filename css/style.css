@@ -9802,6 +9802,7 @@ a.select-type__button {
 .cart-product__inner-wrap{
 	display: flex;
 	align-items: start;
+	margin-left: 27px;
 }
 
 .cart-product__image-block {
@@ -10099,21 +10100,28 @@ div.catalog-button__load-more {
 
 /* detailed-cart start */
 
+.detailed-product__cart {
+	max-width: 1235px;
+	width: 100%;
+}
+
 .detailed-product__cart-wrapper {
-    padding: 38px 68px 69px 27px;
+    padding-top: 32px;
+	padding-bottom: 68px;
     background-color: #fff;
     border-radius: 10px;
 }
 
 .detailed-product__header-block {
-	margin-bottom: 62px;
+	margin-left: 40px;
+	margin-bottom: 46px;
 }
 
 .detailed-product__header-title {
 	display: flex;
     gap: 20px;
     align-items: center;
-    margin-bottom: 31px;
+    margin-bottom: 19px;
 }
 
 div.detailed-product__header-title > .detailed-product__header-title-text {
@@ -10130,7 +10138,7 @@ div.detailed-product__header-title > .detailed-product__header-title-text {
 
 .detailed-cart-stars {
 	display: flex;
-	gap: 12px;
+	
 }
 
 .detailed-cart-stars__rate-count {
@@ -10140,6 +10148,11 @@ div.detailed-product__header-title > .detailed-product__header-title-text {
 	color: #000;
 }
 
+
+.articles-list.detailed-cart__list {
+	display: flex;
+	flex-direction: column;
+}
 
 .detailed-cart__articles {
 	display: flex;
@@ -10160,6 +10173,7 @@ div.detailed-cart__articles-item > span.detailed-cart__articles-item.articles-na
 
 
 .detailed-poduct__image-block {
+	padding-top: 45px;
 	margin-right: 59px;
 }
 
@@ -10170,8 +10184,8 @@ div.detailed-cart__articles-item > span.detailed-cart__articles-item.articles-na
 
 .detailed-poduct__image-action {
 	position: absolute;
-	top: 0;
-	left: 0;
+    top: -26px;
+    left: 38px;
 }
 
 .detailed-poduct__image-item {
@@ -10191,11 +10205,11 @@ div.detailed-cart__articles-item > span.detailed-cart__articles-item.articles-na
 
 
 .detailed-cart-product__manufacture {
-	margin-bottom: 20px;
+	margin-bottom: 8px;
 }
 
 .detailed-cart-product__information {
-	margin-right: 118px;
+	margin-right: 65px;
 	color: #868686;
 	font-size: 18px;
 	font-style: normal;
@@ -10219,19 +10233,28 @@ div> a.detailed-glass-characters__link {
 	
 }
 
+.detailed-manufacture-text {
+	margin-right: 11px;
+}
+
 .detailed-glass-modification-characters__wrapper { 
-	margin-bottom: 20px;
+	margin-bottom: 3px;
 }
 
 .detailed-glass-modification-characters {
 	display: flex;
 	flex-direction: column;
-	gap: 8px;
+	gap: 5px;
+}
+
+.detailed-glass-modification-characters__item {
+	margin-left: 8px;
 }
 
 .detailed-glass-modification-characters__item-label {
 	font-weight: 500;
 	color: #000;
+	margin-right: 8px;
 }
 
 .detailed-glass-all-characters__delivery {
@@ -10240,6 +10263,8 @@ div> a.detailed-glass-characters__link {
 
 
 .detailed-glass-delivery-text {
+	display: inline-block;
+    margin-top: 9px;
 	color: #000;
 	font-size: 22px;
 	font-style: normal;
@@ -10300,7 +10325,7 @@ div> a.detailed-glass-characters__link {
 }
 
 .detailed-cart-price-block__item {
-	margin-bottom: 30px;
+	margin-bottom: 26px;
 }
 
 .detailed-cart-price-block__item.price {
@@ -10393,7 +10418,7 @@ div> a.detailed-glass-characters__link {
 .all-company-glass__item-inner-wrapper {
 	position: relative;
 	max-width: 285px;
-	padding: 65px 19px 34px 19px;
+	padding: 65px 19px 24px 26px;
 	border-radius: 15px;
 	background-color: #FFF;
 	box-shadow: 0px 4px 21px 0px rgba(0, 0, 0, 0.10);
@@ -10402,12 +10427,11 @@ div> a.detailed-glass-characters__link {
 
 .all-company-glass__item-image {
 	border-radius: 15px;
-	margin-bottom: 33px;
+	margin-bottom: 21px;
 }
 
 .all-company-glass__item-title {
 	max-width: 220px;
-	margin-bottom: 7px;
 	text-wrap:	wrap;
 	color: #000;
 	font-size: 15px;
